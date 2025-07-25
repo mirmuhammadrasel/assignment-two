@@ -1,0 +1,103 @@
+@media (max-width: 768px) {
+  .nav-item {
+    display: none;
+  }
+
+  .navigation-bar {
+    display: flex;
+    align-items: center;
+   
+  }
+
+  .logo {
+    flex: 1;
+  }
+
+    .hero {
+    flex-direction: column-reverse;
+  }
+
+  .hero-text {
+    text-align: left; 
+  }
+
+  .hero-text h1 {
+    font-size: 28px;
+  }
+
+  .hero-text p {
+    font-size: 14px;
+  }
+  .product-grid {
+    
+    margin: 0 auto;
+    padding: 0 16px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+  }
+    .section-title {
+    font-size: 26px;
+  }
+
+  .plants-p {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+
+  .lover-section {
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .hero-text h1 {
+    font-size: 22px;
+    text-align: left;
+  }
+
+  .hero-text ul {
+    padding-left: 15px;
+  }
+
+  .lover-image {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .hero-text .content {
+    max-width: 100%;
+  }
+
+   .card-container {
+    flex-direction: column;
+
+  }
+
+  .left-column {
+    flex-direction: column;
+  }
+
+  .right-column {
+    flex: none;
+  }
+
+   .footer-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-left,
+  .footer-links,
+  .footer-column,
+  .social-icons {
+    width: 100%;
+    text-align: left;
+  }
+
+  .social-icons {
+    margin-top: 20px;
+  }
+
+}
+
