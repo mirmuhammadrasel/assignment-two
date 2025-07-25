@@ -2,7 +2,7 @@
   .nav-item {
     display: none;
   }
-
+  
   .navigation-bar {
     display: flex;
     align-items: center;
@@ -43,6 +43,7 @@
   .plants-p {
     font-size: 15px;
     line-height: 1.5;
+    
   }
 
 
@@ -89,10 +90,11 @@
 
   .footer-left,
   .footer-links,
-  .footer-column,
+  .footer-column a,
   .social-icons {
     width: 100%;
     text-align: left;
+
   }
 
   .social-icons {
@@ -100,4 +102,5 @@
   }
 
 }
+
 
